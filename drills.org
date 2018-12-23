@@ -1,0 +1,42 @@
+#+STARTUP: latexpreview
+* Stats
+** Basic Rules of Probability
+*** Drills
+**** Additivity                                                    :drill:
+$P(A \vee B) = \ ?$
+***** Answer
+$P(A \vee B) = P(A) + P(B) - P(A \wedge B)$
+**** Conditional Probability                                       :drill:
+$P(A|B) = \ ?$
+***** Answer
+$P(A|B) = \frac{P(A \wedge B)}{P(B)}$
+**** Multiplication                                                :drill:
+$P(A \wedge B) = \ ?$
+***** Answer
+$P(A \wedge B) = P(A|B)P(B)$
+**** Total Probability                                             :drill:
+How is $P(A)$ related to $B$ ?
+***** Answer
+$P(A) = P(A|B)P(B) + P(A| \neg B)P( \neg B)$
+**** Bayes' Rule                                                   :drill:
+What is Bayes' rule?
+***** Answer
+$P(A|B) = \frac{ P(A)P(B|A) }{ \sum_{i} P(A_i)P(B_i|A_i) } = \frac{ P(A)P(B|A) }{ P(B) }$
+**** Standard Deviation of Population                              :drill:
+What is the standard deviation for a population?
+***** Answer
+$\sqrt{\sum_{i} [(X_i - X_A) ^ 2] / n}$ where $X_A$ is the average for the population.
+**** Standard Deviation Given P and N                              :drill:
+What is the standard deviation if given $p$ and $n$ ?
+***** Answer
+$\sigma = \sqrt{(1-p)pn}$
+**** Worst Case Confidence Interval                                :drill:
+What's a good rule of thumb for the worst case confidence interval?
+***** Answer
+Use $\sigma = \sqrt{(1-p)pn}$ where $p = 0.5$, because when $p = 0.5$, $\sigma$ is maximized for any given $n$.
+**** Three Sigma Rule                                              :drill:
+What is the "three sigma rule"? (Hint: It's related to standard deviations.)
+***** Answer
+"68% - 95% - 99.7%"
+
+These are the percentages of values that lie within 1, 2, and 3 standard deviations of a mean.
