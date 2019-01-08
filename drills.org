@@ -1,5 +1,5 @@
 #+STARTUP: latexpreview
-* Stats
+* Math / Stats
 ** Basic Rules of Probability
 *** Drills
 **** Additivity                                                    :drill:
@@ -40,3 +40,133 @@ What is the "three sigma rule"? (Hint: It's related to standard deviations.)
 "68% - 95% - 99.7%"
 
 These are the percentages of values that lie within 1, 2, and 3 standard deviations of a mean.
+** Greek Alphabet
+*** Drills
+**** alpha                                                         :drill:
+What is this Greek letter? $\alpha$
+***** Answer
+Lowercase alpha
+**** beta                                                          :drill:
+What is this Greek letter? $\beta$
+***** Answer
+Lowercase beta
+**** gamma                                                         :drill:
+What is this Greek letter? $\gamma$
+***** Answer
+Lowercase gamma
+**** Gamma                                                         :drill:
+What is this Greek letter? $\Gamma$
+***** Answer
+Uppercase gamma
+**** delta                                                         :drill:
+What is this Greek letter? $\delta$
+***** Answer
+Lowercase delta
+**** Delta                                                         :drill:
+What is this Greek letter? $\Delta$
+***** Answer
+Uppercase delta
+**** epsilon                                                       :drill:
+What is this Greek letter? $\epsilon$
+***** Answer
+Lowercase epsilon
+**** zeta                                                          :drill:
+What is this Greek letter? $\zeta$
+***** Answer
+Lowercase zeta
+**** eta                                                           :drill:
+What is this Greek letter? $\eta$
+***** Answer
+Lowercase eta
+**** theta                                                         :drill:
+What is this Greek letter? $\theta$
+***** Answer
+Lowercase theta
+**** Theta                                                         :drill:
+What is this Greek letter? $\Theta$
+***** Answer
+Uppercase theta
+**** iota                                                          :drill:
+What is this Greek letter? $\iota$
+***** Answer
+Lowercase iota
+**** kappa                                                         :drill:
+What is this Greek letter? $\kappa$
+***** Answer
+Lowercase kappa
+**** lambda                                                        :drill:
+What is this Greek letter? $\lambda$
+***** Answer
+Lowercase lambda
+**** Lambda                                                        :drill:
+What is this Greek letter? $\Lambda$
+***** Answer
+Uppercase lambda
+**** mu                                                            :drill:
+What is this Greek letter? $\mu$
+***** Answer
+Lowercase mu
+**** nu                                                            :drill:
+What is this Greek letter? $\nu$
+***** Answer
+Lowercase nu
+**** pi                                                            :drill:
+What is this Greek letter? $\pi$
+***** Answer
+Lowercase pi
+**** Pi                                                            :drill:
+What is this Greek letter? $\Pi$
+***** Answer
+Uppercase pi
+**** rho                                                           :drill:
+What is this Greek letter? $\rho$
+***** Answer
+Lowercase rho
+**** sigma                                                         :drill:
+What is this Greek letter? $\sigma$
+***** Answer
+Lowercase sigma
+**** Sigma                                                         :drill:
+What is this Greek letter? $\Sigma$
+***** Answer
+Uppercase sigma
+**** tau                                                           :drill:
+What is this Greek letter? $\tau$
+***** Answer
+Lowercase tau
+**** upsilon                                                       :drill:
+What is this Greek letter? $\upsilon$
+***** Answer
+Lowercase upsilon
+**** Upsilon                                                       :drill:
+What is this Greek letter? $\Upsilon$
+***** Answer
+Uppercase upsilon
+**** phi                                                           :drill:
+What is this Greek letter? $\phi$
+***** Answer
+Lowercase phi
+**** Phi                                                           :drill:
+What is this Greek letter? $\Phi$
+***** Answer
+Uppercase phi
+**** chi                                                           :drill:
+What is this Greek letter? $\chi$
+***** Answer
+Lowercase chi
+**** psi                                                           :drill:
+What is this Greek letter? $\psi$
+***** Answer
+Lowercase psi
+**** Psi                                                           :drill:
+What is this Greek letter? $\Psi$
+***** Answer
+Uppercase psi
+**** omega                                                         :drill:
+What is this Greek letter? $\omega$
+***** Answer
+Lowercase omega
+**** Omega                                                         :drill:
+What is this Greek letter? $\Omega$
+***** Answer
+Uppercase omega
