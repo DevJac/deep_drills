@@ -8,6 +8,8 @@ $P(A \vee B) = \ ?$
 $P(A \vee B) = P(A) + P(B) - P(A \wedge B)$
 **** Conditional Probability                                       :drill:
 $P(A|B) = \ ?$
+
+Do not answer with Bayes' rule. The answer should contain $P(A \wedge B)$.
 ***** Answer
 $P(A|B) = \frac{P(A \wedge B)}{P(B)}$
 **** Multiplication                                                :drill:
@@ -21,7 +23,7 @@ $P(A) = P(A|B)P(B) + P(A| \neg B)P( \neg B)$
 **** Bayes' Rule                                                   :drill:
 What is Bayes' rule?
 ***** Answer
-$P(A|B) = \frac{ P(A)P(B|A) }{ \sum_{i} P(A_i)P(B_i|A_i) } = \frac{ P(A)P(B|A) }{ P(B) }$
+$P(A|B) = \frac{ P(B|A)P(A) }{ \sum_{i} P(B|A_i)P(A_i) } = \frac{ P(B|A)P(A) }{ P(B) }$
 **** Standard Deviation of Population                              :drill:
 What is the standard deviation for a population?
 ***** Answer
@@ -205,7 +207,7 @@ $p(a|b) = \frac{p(b|a)p(a)}{p(b)}$
 
 $p(a|b)$ is the "posterior".
 
-$p(b|a)$ is the likelihood".
+$p(b|a)$ is the "likelihood".
 
 $p(a)$ is the "prior".
 
