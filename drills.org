@@ -170,3 +170,79 @@ Lowercase omega
 What is this Greek letter? $\Omega$
 ***** Answer
 Uppercase omega
+** Bayesian Analysis
+*** Drills
+**** Normal Distribution                                           :drill:
+What is the normal distribution formula?
+***** Answer
+$p(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{(-\frac{1}{2}[\frac{x-\mu}{\sigma}]^2)$
+
+Where $\mu$ is the mean (average), and $\sigma$ is the standard deviation.
+**** Variance                                                      :drill:
+What is variance? How does it relate to the standard deviation?
+***** Answer
+$variance = \sigma^2 = \frac{\sum_i{(X_i - \mu)^2}}{N}$
+
+$standard\ deviation = \sqrt{variance}$
+
+In other words, variance is the average squared difference (or "mean squared error"). The standard deviation is the square root of the variance.
+**** Deriving Bayes' Rule                                          :drill:
+Derive Bayes' rule from $p(a|b) = \frac{p(b,a)}{p(b)}$
+***** Answer
+Multiply both sides by $p(b)$: $p(a|b) = \frac{p(b,a)}{p(b)} \implies p(b,a) = p(a|b)p(b)$
+
+"and" is commutative: $p(a,b) = p(b,a)$
+
+Substitute the long form of $p(a,b)$ and $p(b,a)$: $p(b|a)p(a) = p(a|b)p(b)$
+
+Divide both sides by $p(b)$: $\frac{p(b|a)p(a)}{p(b)} = p(a|b)$
+
+That is Bayes' rule. Remember that $p(b) = \sum_{a_i} p(b|a_i)p(a_i)$
+**** Parts of Bayes' Rule                                          :drill:
+What are the four parts of Bayes' rule?
+***** Answer
+$p(a|b) = \frac{p(b|a)p(a)}{p(b)}$
+
+$p(a|b)$ is the "posterior".
+
+$p(b|a)$ is the likelihood".
+
+$p(a)$ is the "prior".
+
+$p(b)$ is the "evidence".
+**** Beta Distribution                                             :drill:
+What is the Beta distribution?
+***** Answer
+$beta(x|a,b) = \frac{x^{(a-1)}(1-x)^{(b-1)}}{\int_0^1 x^{(a-1)}(1-x)^{(b-1)}\ dx}$
+
+The denominator is a "normalizing constant" which causes the probability function to sum to 1.
+
+Some guidelines for choosing a and b:
+
+$mean = \mu = a/(a+b)$
+
+$mode = \omega = (a-1)/(a+b-2)$
+
+$concentration = k = a + b$
+
+Concentration is the number of data points needed to equally balance the prior.
+**** Metropolis Algorithm                                          :drill:
+What is the Metropolis algorithm?
+***** Answer
+It is a "random walk", or Monte Carlo Markov Chain (MCMC) algorithm, for sampling a distribution.
+
+The algorithm is:
+
+1) Keep track of the "current position" in the distribution and all previously visited positions.
+
+2) Generate a proposed move to another position. There are various ways to do this, some are more effective than others.
+
+3) Move from the current position to the proposed position with probability:
+
+$p(move) = min(1, \frac{d(proposed)}{d(current)})$
+
+Where $d$ is the distribution we are sampling.
+
+4) In an infinitely long run, the history of visited positions will be a perfect sample from the distribution.
+
+With the right parameters, a finitely long run will be a good sample from the distribution.
