@@ -44,14 +44,6 @@ What is the "three sigma rule"? (Hint: It's related to standard deviations.)
 These are the percentages of values that lie within 1, 2, and 3 standard deviations of a mean.
 ** Greek Alphabet
 *** Drills
-**** alpha                                                         :drill:
-What is this Greek letter? $\alpha$
-***** Answer
-Lowercase alpha
-**** beta                                                          :drill:
-What is this Greek letter? $\beta$
-***** Answer
-Lowercase beta
 **** gamma                                                         :drill:
 What is this Greek letter? $\gamma$
 ***** Answer
@@ -72,14 +64,6 @@ Uppercase delta
 What is this Greek letter? $\epsilon$
 ***** Answer
 Lowercase epsilon
-**** zeta                                                          :drill:
-What is this Greek letter? $\zeta$
-***** Answer
-Lowercase zeta
-**** eta                                                           :drill:
-What is this Greek letter? $\eta$
-***** Answer
-Lowercase eta
 **** theta                                                         :drill:
 What is this Greek letter? $\theta$
 ***** Answer
@@ -88,14 +72,6 @@ Lowercase theta
 What is this Greek letter? $\Theta$
 ***** Answer
 Uppercase theta
-**** iota                                                          :drill:
-What is this Greek letter? $\iota$
-***** Answer
-Lowercase iota
-**** kappa                                                         :drill:
-What is this Greek letter? $\kappa$
-***** Answer
-Lowercase kappa
 **** lambda                                                        :drill:
 What is this Greek letter? $\lambda$
 ***** Answer
@@ -108,10 +84,6 @@ Uppercase lambda
 What is this Greek letter? $\mu$
 ***** Answer
 Lowercase mu
-**** nu                                                            :drill:
-What is this Greek letter? $\nu$
-***** Answer
-Lowercase nu
 **** pi                                                            :drill:
 What is this Greek letter? $\pi$
 ***** Answer
@@ -132,18 +104,6 @@ Lowercase sigma
 What is this Greek letter? $\Sigma$
 ***** Answer
 Uppercase sigma
-**** tau                                                           :drill:
-What is this Greek letter? $\tau$
-***** Answer
-Lowercase tau
-**** upsilon                                                       :drill:
-What is this Greek letter? $\upsilon$
-***** Answer
-Lowercase upsilon
-**** Upsilon                                                       :drill:
-What is this Greek letter? $\Upsilon$
-***** Answer
-Uppercase upsilon
 **** phi                                                           :drill:
 What is this Greek letter? $\phi$
 ***** Answer
@@ -152,10 +112,6 @@ Lowercase phi
 What is this Greek letter? $\Phi$
 ***** Answer
 Uppercase phi
-**** chi                                                           :drill:
-What is this Greek letter? $\chi$
-***** Answer
-Lowercase chi
 **** psi                                                           :drill:
 What is this Greek letter? $\psi$
 ***** Answer
