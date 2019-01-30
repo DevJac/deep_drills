@@ -204,3 +204,13 @@ Where $d$ is the distribution we are sampling.
 4) In an infinitely long run, the history of visited positions will be a perfect sample from the distribution.
 
 With the right parameters, a finitely long run will be a good sample from the distribution.
+* Programming
+** JavaScript
+*** Drills
+**** Comparison Conversions                                        :drill:
+When comparing `x == y` what type conversions might take place, and in what order?
+***** Answer
+The conversion rules in order of priority are roughly:
+    1. Boolean -> Number
+    2. any -> Number
+    3. any -> String
