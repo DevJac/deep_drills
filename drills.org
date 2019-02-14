@@ -208,9 +208,18 @@ With the right parameters, a finitely long run will be a good sample from the di
 ** JavaScript
 *** Drills
 **** Comparison Conversions                                        :drill:
-In JavaScript, when comparing `x == y` what type conversions might take place, and in what order?
+In JavaScript, when comparing ~x == y~ what type conversions might take place, and in what order?
 ***** Answer
 The conversion rules in order of priority are roughly:
     1. Boolean -> Number
     2. any -> Number
     3. any -> String
+**** Falsy Values
+In Javascript, what are the 6 falsy values?
+***** Answer
+1. ~false~ of type ~Boolean~
+2. ~0~ of type ~Number~
+3. ~NaN~ of type ~Number~
+4. ~""~ , the empty ~String~
+5. ~null~ of type ~null~
+6. ~undefined~ of type ~undefined~
