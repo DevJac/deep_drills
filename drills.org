@@ -33,7 +33,7 @@ What is the standard deviation if given $p$ and $n$ ?
 ***** Answer
 $\sigma = \sqrt{(1-p)pn}$
 **** Worst Case Confidence Interval                                :drill:
-What's a good rule of thumb for the worst case confidence interval?
+What's a good rule of thumb for the worst case confidence interval if given $p$ and $n$?
 ***** Answer
 Use $\sigma = \sqrt{(1-p)pn}$ where $p = 0.5$, because when $p = 0.5$, $\sigma$ is maximized for any given $n$.
 **** Three Sigma Rule                                              :drill:
@@ -214,7 +214,7 @@ The conversion rules in order of priority are roughly:
     1. Boolean -> Number
     2. any -> Number
     3. any -> String
-**** Falsy Values
+**** Falsy Values                                                  :drill:
 In Javascript, what are the 6 falsy values?
 ***** Answer
 1. ~false~ of type ~Boolean~
