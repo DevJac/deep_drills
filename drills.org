@@ -204,6 +204,111 @@ Where $d$ is the distribution we are sampling.
 4) In an infinitely long run, the history of visited positions will be a perfect sample from the distribution.
 
 With the right parameters, a finitely long run will be a good sample from the distribution.
+** Linear Algebra
+*** Drills
+**** Row / Column Notation                                         :drill:
+If I have a 2 x 3 matrix, how many rows and columns does it have?
+***** Answer
+2 rows
+3 columns
+**** What Size?                                                    :drill:
+What size is this matrix?
+
+\begin{bmatrix}
+a & b \\
+c & d \\
+e & f
+\end{bmatrix}
+***** Answer
+3 x 2
+
+3 rows
+2 columns
+**** Matrix Multiplication                                         :drill:
+Perform this matrix multiplication:
+
+\begin{equation*}
+\begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix}
+\begin{bmatrix}
+e & f \\
+g & h
+\end{bmatrix}
+\end{equation*}
+***** Answer
+\begin{equation*}
+\begin{matrix}
+\begin{bmatrix} a & b \end{bmatrix} \begin{bmatrix} e \\ g \end{bmatrix}
+&
+\begin{bmatrix} a & b \end{bmatrix} \begin{bmatrix} f \\ h \end{bmatrix}
+\\[1em]
+\begin{bmatrix} c & d \end{bmatrix} \begin{bmatrix} e \\ g \end{bmatrix}
+&
+\begin{bmatrix} c & d \end{bmatrix} \begin{bmatrix} f \\ h \end{bmatrix}
+\end{matrix}
+=
+\begin{bmatrix}
+ae + bg & af + bh \\
+ce + dg & cf + dh
+\end{bmatrix}
+\end{equation*}
+
+Notice that *rows* from the first matrix tend to stay together, and *columns* from the second matrix tend to stay together.
+**** Matrix Multiplication Meaning                                 :drill:
+What is the meaning of the following matrix multiplication with regards to basis vectors?
+
+\begin{equation*}
+\begin{bmatrix}
+a & b \\ c & d
+\end{bmatrix}
+\begin{bmatrix}
+e \\ f
+\end{bmatrix}
+\end{equation*}
+***** Answer
+\begin{equation*}
+e
+\begin{bmatrix}
+a \\ c
+\end{bmatrix}
++
+f
+\begin{bmatrix}
+b \\ d
+\end{bmatrix}
+=
+\begin{bmatrix}
+ea + fb \\ ec + fd
+\end{bmatrix}
+\end{equation*}
+
+$\begin{bmatrix} a \\ c \end{bmatrix}$ and $\begin{bmatrix} b \\ d \end{bmatrix}$ are the basis vectors that are scaled by $\begin{bmatrix} e \\ f \end{bmatrix}$.
+
+Remember all vectors are defined in terms of their basis vectors.
+**** "Eigen"                                                       :drill:
+What does the word "eigen" (as in "eigenvector") mean in German?
+***** Answer
+"own"
+
+It helps to think of "eigenvectors" as "owned vectors".
+**** Eigen Equation                                                :drill:
+What is the eigenvector / eigenvalue equation?
+***** Answer
+$Ax = \lambda x$
+
+Where $A$ is a linear transformation (a matrix),
+$x$ is a vector,
+and $\lambda$ is a scalar.
+
+For any solution to this equation, $x$ is a /eigenvector/ of $A$, and $\lambda$ is a /eigenvalue/ of $A$.
+
+They are "right" eigenvectors and eigenvalues, because the $x$ is on the right in "$Ax$". There are also "left" eigenvectors and eigenvalues.
+**** Vector Space                                                  :drill:
+Roughly speaking, what are the requirements for a vector space?
+***** Answer
+Must be closed under addition and scaling (scalar multiplication), and these operations must "behave normally". Any "vector" that meets these criteria forms a vector space.
 * Programming
 ** JavaScript
 *** Drills
