@@ -311,7 +311,7 @@ Roughly speaking, what are the requirements for a vector space?
 Must be closed under addition and scaling (scalar multiplication), and these operations must "behave normally". Any "vector" that meets these criteria forms a vector space.
 ** Algebra
 *** Drills
-**** Quadratic Formula
+**** Quadratic Formula                                             :drill:
 What is the quadratic formula?
 ***** Answer
 The two solutions to $ax^2 + bx + c = 0$ are given by the quadratic formula:
