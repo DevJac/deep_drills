@@ -309,6 +309,12 @@ They are "right" eigenvectors and eigenvalues, because the $x$ is on the right i
 Roughly speaking, what are the requirements for a vector space?
 ***** Answer
 Must be closed under addition and scaling (scalar multiplication), and these operations must "behave normally". Any "vector" that meets these criteria forms a vector space.
+**** Norm Function                                                 :drill:
+What is the "norm" function?
+***** Answer
+It is a generalization of the Pythagorean formula to many variables:
+
+$norm(x) = \sqrt{x_1^2 + ... + x_n^2}$
 ** Algebra
 *** Drills
 **** Quadratic Formula                                             :drill:
@@ -336,3 +342,21 @@ In Javascript, what are the 6 falsy values?
 4. ~""~ , the empty ~String~
 5. ~null~ of type ~null~
 6. ~undefined~ of type ~undefined~
+** Machine Learning
+*** Drills
+**** Softmax Function                                              :drill:
+What is the softmax function?
+***** Answer
+It is a function which creates a probability distribution from weights:
+
+$\sigma(z)_i = \frac{e^{z_i}}{\Sigma_j e^{z_j}}$
+**** L1 and L2 Regularization                                      :drill:
+What is L1 and L2 regularization? What are they also known as?
+***** Answer
+L1 regularization is also known as "Lasso regression".
+
+L2 regularization is also known as "Ridge regression".
+
+L1 regularization penalizes the /sum/ of the parameters. This encourages only the most important parameters to become large, while most parameters remain zero.
+
+L2 regularization penalizes the /norm/ of the parameters. This encourages all parameters to be used and increasingly penalizes any parameters that become large.
