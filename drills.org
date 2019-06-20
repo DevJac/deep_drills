@@ -394,6 +394,13 @@ Finish this definition:
   sequence :: Applicative f => [f a] -> f [a]
   sequence = foldr (liftA2 (:)) (pure [])
 #+end_src
+**** Fold Types                                                    :drill:
+What are the types of ~foldr~ and ~foldl~?
+***** Answer
+#+begin_src haskell
+  foldr :: (a -> b -> b) -> b -> [a] -> b
+  foldl :: (b -> a -> b) -> b -> [a] -> b
+#+end_src
 ** JavaScript
 *** Drills
 **** Comparison Conversions                                        :drill:
