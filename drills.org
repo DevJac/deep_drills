@@ -359,7 +359,9 @@ What is the data definition of ~MaybeT~ and ~EitherT~?
   newtype EitherT e m a = EitherT { runEitherT :: m (Either e a) }
 #+end_src
 **** MaybeT Monad Instance                                         :drill:
-Complete the following definition.
+Complete the following definitions:
+
+(Copy / paste the code into a Haskell buffer to complete.)
 
 #+begin_src haskell
   newtype IdentityT f a = IdentityT { runIdentityT :: f a } deriving (Show, Eq)
@@ -383,7 +385,12 @@ Finish this definition:
 
 #+begin_src haskell
   sequence :: Applicative f => [f a] -> f [a]
-  sequence = [foldr (liftA2 (:)) (pure [])]
+  sequence = _TODO
+#+end_src
+***** Answer
+#+begin_src haskell
+  sequence :: Applicative f => [f a] -> f [a]
+  sequence = foldr (liftA2 (:)) (pure [])
 #+end_src
 ** JavaScript
 *** Drills
