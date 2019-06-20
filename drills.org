@@ -324,6 +324,40 @@ The two solutions to $ax^2 + bx + c = 0$ are given by the quadratic formula:
 
 $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 * Programming
+** Haskell
+*** Drills
+**** Functor                                                       :drill:
+What is the minimal class definition of ~Functor~?
+***** Answer
+#+begin_src haskell
+  class Functor f where
+    fmap :: (a -> b) -> f a -> f b
+#+end_src
+**** Applicative                                                   :drill:
+What is the minimal class definition of ~Applicative~?
+
+Hint: there are 3 methods, but only 2 must be implemented.
+***** Answer
+#+begin_src haskell
+  class Functor f => Applicative f where
+    pure :: a -> f a
+    (<*>) :: f (a -> b) -> f a -> f b
+    liftA2 :: (a -> b -> c) -> f a -> f b -> f c
+#+end_src
+**** Monad                                                         :drill:
+What is the minimal class definition of ~Monad~?
+***** Answer
+#+begin_src haskell
+  class Applicative m => Monad m where
+    (>>=) :: m a -> (a -> m b) -> m b
+#+end_src
+**** Monad Transformers                                            :drill:
+What is the data definition of ~MaybeT~ and ~EitherT~?
+***** Answer
+#+begin_src haskell
+  newtype MaybeT m a = MaybeT { runMaybeT :: m (Maybe a) }
+  newtype EitherT e m a = EitherT { runEitherT :: m (Either e a) }
+#+end_src
 ** JavaScript
 *** Drills
 **** Comparison Conversions                                        :drill:
