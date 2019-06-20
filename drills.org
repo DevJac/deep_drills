@@ -383,8 +383,10 @@ Complete the following definitions:
 **** sequence                                                      :drill:
 Finish this definition:
 
+(Note: There are extra parenthesis in the definition to prevent org-drill's "cloze" behavior.)
+
 #+begin_src haskell
-  sequence :: Applicative f => [f a] -> f [a]
+  sequence :: Applicative f => [(f a)] -> f [(a)]
   sequence = _TODO
 #+end_src
 ***** Answer
