@@ -358,6 +358,33 @@ What is the data definition of ~MaybeT~ and ~EitherT~?
   newtype MaybeT m a = MaybeT { runMaybeT :: m (Maybe a) }
   newtype EitherT e m a = EitherT { runEitherT :: m (Either e a) }
 #+end_src
+**** MaybeT Monad Instance                                         :drill:
+Complete the following definition.
+
+#+begin_src haskell
+  newtype IdentityT f a = IdentityT { runIdentityT :: f a } deriving (Show, Eq)
+
+  instance (Functor m) => Functor (MaybeT m) where
+    fmap :: (a -> b) -> MaybeT m a -> MaybeT m b
+    fmap = _TODO
+
+  instance (Applicative m) => Applicative (MaybeT m) where
+    pure :: a -> MaybeT m a
+    pure = _TODO
+    (<*>) :: MaybeT m (a -> b) -> MaybeT m a -> MaybeT m b
+    (<*>) = _TODO
+
+  instance (Monad m) => Monad (MaybeT m) where
+    (>>=) :: MaybeT m a -> (a -> MaybeT m b) -> MaybeT m b
+    (>>=) = _TODO
+#+end_src
+**** sequence                                                      :drill:
+Finish this definition:
+
+#+begin_src haskell
+  sequence :: Applicative f => [f a] -> f [a]
+  sequence = [foldr (liftA2 (:)) (pure [])]
+#+end_src
 ** JavaScript
 *** Drills
 **** Comparison Conversions                                        :drill:
