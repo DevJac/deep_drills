@@ -437,3 +437,9 @@ L2 regularization is also known as "Ridge regression".
 L1 regularization penalizes the /sum/ of the parameters. This encourages only the most important parameters to become large, while most parameters remain zero.
 
 L2 regularization penalizes the /norm/ of the parameters. This encourages all parameters to be used and increasingly penalizes any parameters that become large.
+**** Entropy                                                       :drill:
+What is the entropy function?
+***** Answer
+$entropy(X) = -\Sigma_i P(X_i) log_b(P(X_i))$ where $P(X_i)$ is a probability, and $X$ forms a discrete probability distribution.
+
+It is a function which is maximized when the probabilities are evenly distributed.
