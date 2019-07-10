@@ -323,6 +323,12 @@ What is the quadratic formula?
 The two solutions to $ax^2 + bx + c = 0$ are given by the quadratic formula:
 
 $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+**** Logarithm                                                     :drill:
+Rearrange the variables $a$, $b$, and $c$, in the following so that it becomes true:
+
+$log_{a}(b) = c \quad if \quad a^{b} = c$
+***** Answer
+$log_{b}(a) = c \quad if \quad b^{c} = a$
 * Programming
 ** Haskell
 *** Drills
