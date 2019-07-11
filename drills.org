@@ -329,6 +329,12 @@ Rearrange the variables $a$, $b$, and $c$, in the following so that it becomes t
 $log_{a}(b) = c \quad if \quad a^{b} = c$
 ***** Answer
 $log_{b}(a) = c \quad if \quad b^{c} = a$
+** Calculus
+*** Drills
+**** General Formula for the Derivative                            :drill:
+What is the general formula for the derivative?
+***** Answer
+$y' = \frac{f(x+h) - f(x)}{h}$
 * Programming
 ** Haskell
 *** Drills
