@@ -335,6 +335,10 @@ $log_{b}(a) = c \quad if \quad b^{c} = a$
 What is the general formula for the derivative?
 ***** Answer
 $y' = \frac{f(x+h) - f(x)}{h}$
+
+- or -
+
+$dy = \frac{f(x+dx) - f(x)}{dx}$
 * Programming
 ** Haskell
 *** Drills
