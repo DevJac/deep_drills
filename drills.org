@@ -3,17 +3,17 @@
 ** Basic Rules of Probability
 *** Drills
 **** Additivity                                                    :drill:
-$P(A \vee B) = \ ?$
+$P(A \vee B) =\ ?$
 ***** Answer
 $P(A \vee B) = P(A) + P(B) - P(A \wedge B)$
 **** Conditional Probability                                       :drill:
-$P(A|B) = \ ?$
+$P(A|B) =\ ?$
 
 Do not answer with Bayes' rule. The answer should contain $P(A \wedge B)$.
 ***** Answer
 $P(A|B) = \frac{P(A \wedge B)}{P(B)}$
 **** Multiplication                                                :drill:
-$P(A \wedge B) = \ ?$
+$P(A \wedge B) =\ ?$
 ***** Answer
 $P(A \wedge B) = P(A|B)P(B)$
 **** Total Probability                                             :drill:
@@ -339,6 +339,70 @@ $y' = \frac{f(x+h) - f(x)}{h}$
 - or -
 
 $dy = \frac{f(x+dx) - f(x)}{dx}$
+**** Differential 1                                                :drill:
+$d(C) =\ ?$
+***** Answer
+$d(C) = 0$
+**** Differential 2                                                :drill:
+$d(u) =\ ?$
+***** Answer
+$d(u) = du$
+**** Differential 3                                                :drill:
+$d(n\ u) =\ ?$
+***** Answer
+$d(n\ u) = n\ du$
+**** Differential 4                                                :drill:
+$d(u^{n}) =\ ?$
+***** Answer
+$d(u^{n}) = n\ u^{n-1}\ du$
+**** Differential 5                                                :drill:
+$d(u + v) =\ ?$
+***** Answer
+$d(u + v) = du + dv$
+**** Differential 6                                                :drill:
+$d(u - v) =\ ?$
+***** Answer
+$d(u - v) = du - dv$
+**** Differential 7                                                :drill:
+$d(u\ v) =\ ?$
+***** Answer
+$d(u\ v) = u\ dv + v\ du$
+**** Differential 8                                                :drill:
+$d(\frac{u}{v}) =\ ?$
+***** Answer
+$d(\frac{u}{v}) = \frac{v\ du - u\ dv}{v^{2}}$
+**** Differential 9                                                :drill:
+$d(ln(u)) =\ ?$
+***** Answer
+$d(ln(u)) = \frac{du}{u}$
+**** Differential 10                                               :drill:
+$d(log_{n}(u)) =\ ?$
+***** Answer
+$d(log_{n}(u)) = \frac{du}{u\ ln(n)}$
+**** Differential 11                                               :drill:
+$d(e^{u}) =\ ?$
+***** Answer
+$d(e^{u}) = e^{u}\ du$
+**** Differential 12                                               :drill:
+$d(n^{u}) =\ ?\ (where\ n > 0)$
+***** Answer
+$d(n^{u}) = ln(n)\ n^{u}\ du\ (where\ n > 0)$
+**** Differential 13                                               :drill:
+$d(sin(u)) =\ ?$
+***** Answer
+$d(sin(u)) = cos(u)\ du$
+**** Differential 14                                               :drill:
+$d(cos(u)) =\ ?$
+***** Answer
+$d(cos(u)) = -sin(u)\ du$
+**** Differential 15                                               :drill:
+$d^{2}u =\ ?$
+***** Answer
+$d^{2}u = d(du) = d(d(u))$
+**** Differential 16                                               :drill:
+$\frac{d}{dv}(u) =\ ?$
+***** Answer
+$\frac{d}{dv}(u) = \frac{du}{dv}$
 * Programming
 ** Haskell
 *** Drills
