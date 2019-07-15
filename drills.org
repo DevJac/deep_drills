@@ -380,29 +380,45 @@ $d(log_{n}(u)) =\ ?$
 ***** Answer
 $d(log_{n}(u)) = \frac{du}{u\ ln(n)}$
 **** Differential 11                                               :drill:
+$d(ln(|u|)) =\ ?$
+***** Answer
+$d(ln(|u|)) = \frac{du}{u}$
+**** Differential 12                                               :drill:
+$d(log_{n}(|u|)) =\ ?$
+***** Answer
+$d(log_{n}(|u|)) = \frac{du}{u\ ln(n)}$
+**** Differential 13                                               :drill:
 $d(e^{u}) =\ ?$
 ***** Answer
 $d(e^{u}) = e^{u}\ du$
-**** Differential 12                                               :drill:
+**** Differential 14                                               :drill:
 $d(n^{u}) =\ ?\ (where\ n > 0)$
 ***** Answer
 $d(n^{u}) = ln(n)\ n^{u}\ du\ (where\ n > 0)$
-**** Differential 13                                               :drill:
+**** Differential 15                                               :drill:
 $d(sin(u)) =\ ?$
 ***** Answer
 $d(sin(u)) = cos(u)\ du$
-**** Differential 14                                               :drill:
+**** Differential 16                                               :drill:
 $d(cos(u)) =\ ?$
 ***** Answer
 $d(cos(u)) = -sin(u)\ du$
-**** Differential 15                                               :drill:
+**** Differential 17                                               :drill:
 $d^{2}u =\ ?$
 ***** Answer
 $d^{2}u = d(du) = d(d(u))$
-**** Differential 16                                               :drill:
+**** Differential 18                                               :drill:
 $\frac{d}{dv}(u) =\ ?$
 ***** Answer
 $\frac{d}{dv}(u) = \frac{du}{dv}$
+**** Differential 19                                               :drill:
+$d(u^{v}) =\ ?$
+***** Answer
+$d(u^{v}) = v\ u^{v-1}\ du + ln(u)\ u^{v}\ dv$
+**** Differential 20                                               :drill:
+$d(log_{u}(v)) = \frac{dv}{v\ ln(u)} - \frac{log_{u}(v)\ du}{u\ ln(u)}$
+- or -
+$d(log_{u}(v)) = \frac{dv}{v\ ln(u)} - \frac{ln(v)\ du}{u\ ln(u)\ ln(u)}$
 * Programming
 ** Haskell
 *** Drills
