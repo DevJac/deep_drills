@@ -419,6 +419,28 @@ $d(u^{v}) = v\ u^{v-1}\ du + ln(u)\ u^{v}\ dv$
 $d(log_{u}(v)) = \frac{dv}{v\ ln(u)} - \frac{log_{u}(v)\ du}{u\ ln(u)}$
 - or -
 $d(log_{u}(v)) = \frac{dv}{v\ ln(u)} - \frac{ln(v)\ du}{u\ ln(u)\ ln(u)}$
+**** Differential vs Derivative Operations                         :drill:
+What is the meaning of following operations?
+
+$d(...)$
+
+$D_{x}(...)$
+
+$\frac{d}{dx}(...)$
+***** Answer
+The first is the "differential" operation. The latter two are "derivative" operations with respect to x.
+**** dy / dx and Slope                                             :drill:
+What does $\frac{dy}{dx}$ mean?
+***** Answer
+Slope.
+
+Slope is "rise over run".
+
+The change in x, dx, is run.
+
+The change in y, dy, is rise.
+
+Thus, "rise over run" would be dy / dx.
 * Programming
 ** Haskell
 *** Drills
