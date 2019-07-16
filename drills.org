@@ -441,6 +441,36 @@ The change in x, dx, is run.
 The change in y, dy, is rise.
 
 Thus, "rise over run" would be dy / dx.
+**** Integration Symbol                                            :drill:
+What is the integration symbol and what is it meant to suggest?
+***** Answer
+$\int$
+
+It is an "elongated S", to suggest "summation".
+**** Integral 1                                                    :drill:
+$\int du =\ ?$
+***** Answer
+$\int du = u + C$
+**** Integral 2                                                    :drill:
+$\int (du + dv) =\ ?$
+***** Answer
+$\int (du + dv) = \int du + \int dv$
+**** Integral 3                                                    :drill:
+$\int n\ du =\ ?$
+***** Answer
+$\int n\ du = n \int du$
+**** Integral 4                                                    :drill:
+$\int u^{n}\ du =\ ?$
+***** Answer
+$\int u^{n}\ du = \frac{u^{n+1}}{n+1} + C$
+**** Integral 5                                                    :drill:
+$\int \frac{du}{u} =\ ?$
+***** Answer
+$\int \frac{du}{u} = ln(|u|) + C$
+**** Integral 6                                                    :drill:
+$\int n^{u}\ du =\ ?$
+***** Answer
+$\int n^{u}\ du = \frac{n^{u}}{ln(n)} + C$
 * Programming
 ** Haskell
 *** Drills
