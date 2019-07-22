@@ -329,6 +329,12 @@ Rearrange the variables $a$, $b$, and $c$, in the following so that it becomes t
 $log_{a}(b) = c \quad if \quad a^{b} = c$
 ***** Answer
 $log_{b}(a) = c \quad if \quad b^{c} = a$
+**** Elementary Functions                                          :drill:
+In math, what are the elementary functions?
+***** Answer
+Functions composed of powers and roots, exponentials and logarithms, and trigonometric functions and their inverses.
+
+These functions may be composed or combined by addition, subtraction, multiplication, or division.
 ** Calculus
 *** Drills
 **** General Formula for the Derivative                            :drill:
