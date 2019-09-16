@@ -597,3 +597,9 @@ What is the entropy function?
 $entropy(X) = -\Sigma_i P(X_i) log_b(P(X_i))$ where $P(X_i)$ is a probability, and $X$ forms a discrete probability distribution.
 
 It is a function which is maximized when the probabilities are evenly distributed.
+**** Policy Gradient
+What is the general form of $J$ in policy gradient reinforcement learning methods?
+***** Answer
+$J(\pi) = E [ \sum_{t=0}^{T} log \pi(a_t|s_t) \Phi_t ]$
+
+Where $\Phi$ is total episode reward, discounted future reward, may or may not have a baseline, etc.
